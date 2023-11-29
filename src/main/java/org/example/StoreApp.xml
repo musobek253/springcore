@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="item" class="org.example.Item">
+        <property name="name" value=" Item"/>
+        <property name="price" value="10.0"/>
+    </bean>
+
+    <bean id="store" class="org.example.Store">
+        <property name="items">
+            <list>
+                <ref bean="item"/>
+            </list>
+        </property>
+    </bean>
+
+</beans>
