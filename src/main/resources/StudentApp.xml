@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="student" class="org.example.student.Student">
+    <bean id="student" class="org.example.task.model2.task1.store.student.Student">
         <property name="subjects">
             <list>
                 <value>Math</value>

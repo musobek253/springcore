@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task.model2.task1.store;
 
 import java.util.List;
 

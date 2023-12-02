@@ -1,4 +1,4 @@
-package org.example;
+package org.example.task.model2.task1.store;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

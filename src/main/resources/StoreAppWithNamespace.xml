@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="item" class="org.example.Item" p:name="Example Item" p:price="10.0"/>
+    <bean id="item" class="org.example.task.model2.task1.store.Item" p:name="Example Item" p:price="10.0"/>
 
-    <bean id="store" class="org.example.Store">
+    <bean id="store" class="org.example.task.model2.task1.store.Store">
         <property name="items">
             <list>
                 <ref bean="item"/>

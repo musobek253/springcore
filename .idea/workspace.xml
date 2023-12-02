@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3af1e4c8-afa1-4783-afc8-dfd03ee2ade6" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk1/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/city.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreAppWithNamespace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreAppWithNamespace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/StudentApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentApp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/StoreApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/StoreConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/StudentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/StudentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/StudentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StoreApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreApp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StoreAppWithNamespace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreAppWithNamespace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentApp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -33,27 +47,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/musobek/Desktop/springUrok/springcore/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/Users/musobek/Desktop/springUrok/springcore/src/main/java/org/example/Main.java",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "1fa907a8bf8af6734fb008f419074a95",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/musobek/Desktop/springUrok/springcore/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/musobek/Desktop/springUrok/springcore/src/main/java/org/example/Main.java&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1fa907a8bf8af6734fb008f419074a95&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StudentApp">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.task.model2.task2.tk2.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task.model2.task2.tk1.Main" />
+      <module name="springcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.task.model2.task2.tk1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StoreApp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.store.StoreApp" />
       <module name="springcore" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +110,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.task.model2.task2.tk2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task.model2.task2.tk2.Main" />
+      <module name="springcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.task.model2.task2.tk2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.task.model2.task2.tk2.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.StoreApp" />
       </list>
@@ -95,7 +142,8 @@
       <updated>1699722142652</updated>
       <workItem from="1699722143807" duration="628000" />
       <workItem from="1699855727045" duration="17000" />
-      <workItem from="1701270496577" duration="2553000" />
+      <workItem from="1701270496577" duration="4317000" />
+      <workItem from="1701520631275" duration="1839000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -121,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701272370795</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial">
+      <option name="closed" value="true" />
+      <created>1701273108591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701273108591</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial">
+      <option name="closed" value="true" />
+      <created>1701273117194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701273117194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

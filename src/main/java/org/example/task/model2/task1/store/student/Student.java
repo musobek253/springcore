@@ -1,4 +1,4 @@
-package org.example.student;
+package org.example.task.model2.task1.store.student;
 
 import java.util.List;
 import java.util.Map;
