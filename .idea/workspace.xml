@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3af1e4c8-afa1-4783-afc8-dfd03ee2ade6" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk1/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task2/tk2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/city.properties" afterDir="false" />
+    <list default="true" id="3af1e4c8-afa1-4783-afc8-dfd03ee2ade6" name="Changes" comment="task2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/excel/write/ExcelWriterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk1/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk1/TransformAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk2/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk2/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk2/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task3/tk2/TransformAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/StoreApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StoreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/StoreConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/StudentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/student/StudentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task/model2/task1/store/student/StudentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StoreApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreApp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StoreAppWithNamespace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StoreAppWithNamespace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentApp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentApp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="core_auto_config" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Y2SNeKgmf1Kv6GzCbPRfu6wB8h" />
@@ -69,8 +68,24 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.task.model2.task3.tk2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.task.model2.task2.tk2.Main">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="ExcelWriterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.excel.write.ExcelWriterService" />
+      <module name="springcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.excel.write.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.task.model2.task2.tk1.Main" />
       <module name="springcore" />
@@ -84,25 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.store.StoreApp" />
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task.model2.task3.tk2.MainApp" />
       <module name="springcore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.student.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.student.StudentApp" />
-      <module name="springcore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.student.*" />
+          <option name="PATTERN" value="org.example.task.model2.task3.tk2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.task.model2.task3.tk1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.task.model2.task3.tk1.Main" />
+      <module name="springcore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.task.model2.task3.tk1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.org.example.task.model2.task3.tk1.Main" />
+        <item itemvalue="Application.ExcelWriterService" />
         <item itemvalue="Application.org.example.task.model2.task2.tk2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StudentApp" />
-        <item itemvalue="Application.StoreApp" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +159,7 @@
       <workItem from="1699722143807" duration="628000" />
       <workItem from="1699855727045" duration="17000" />
       <workItem from="1701270496577" duration="4317000" />
-      <workItem from="1701520631275" duration="1839000" />
+      <workItem from="1701520631275" duration="8755000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -185,14 +201,34 @@
       <option name="project" value="LOCAL" />
       <updated>1701273117194</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task2">
+      <option name="closed" value="true" />
+      <created>1701527716229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701527716229</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task2" />
   </component>
 </project>
